@@ -1100,7 +1100,7 @@ public class GanttProject extends GanttProjectBase implements ResourceView, Gant
 
   public void repaint2() {
     getResourcePanel().getResourceTreeTableModel().updateResources();
-    getResourcePanel().getResourceTreeTable().setRowHeight(20);
+    getResourcePanel().getResourceTreeTable().setRowHeight(30);
     super.repaint();
   }
 
