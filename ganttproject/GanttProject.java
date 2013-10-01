@@ -1127,7 +1127,7 @@ public class GanttProject extends GanttProjectBase implements ResourceView, Gant
   public void refresh() {
     getTaskManager().processCriticalPath(getTaskManager().getRootTask());
     getResourcePanel().getResourceTreeTableModel().updateResources();
-    getResourcePanel().getResourceTreeTable().setRowHeight(60);
+    getResourcePanel().getResourceTreeTable().setRowHeight(80);//Ihad edited
     for (Chart chart : PluginManager.getCharts()) {
       chart.reset();
     }
